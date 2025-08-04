@@ -1,0 +1,47 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>calculator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>CALCULATOR</h1>
+<div class="container">
+ <form actions="">
+ 	<p>Sreedhu's calculator</p>
+    
+     <input type="text" id ="screen">
+     <br>
+
+      <input class ="button number" type="button" value ="7" onclick="btnClick( value)">
+      <input class ="button number" type="button" value ="8"  onclick="btnClick(value)">
+      <input class ="button number" type="button" value ="9"  onclick="btnClick(value)">
+      <input class ="button operator" type="button" value ="/"  onclick="btnClick(value)">
+      <br> 
+
+      <input class ="button number" type="button" value ="6"  onclick="btnClick(value)">
+      <input class ="button number" type="button" value ="5"  onclick="btnClick(value)">
+      <input class ="button number" type="button" value ="4"  onclick="btnClick(value)">
+      <input class ="button operator" type="button" value ="*"  onclick="btnClick(value)">
+<br>
+      <input class ="button number" type="button" value ="3"  onclick="btnClick(value)">
+      <input class ="button number" type="button" value ="2"  onclick="btnClick(value)">
+      <input class ="button number" type="button" value ="1"  onclick="btnClick(value)">
+      <input class ="button operator" type="button" value ="+"  onclick="btnClick(value)">
+<br>
+
+      <input class ="button clear" type="button" value ="c" onclick="clearscreen()" >
+      <input class ="button number" type="button" value ="0"  onclick="btnClick(value)">
+      <input class ="button result" type="button" value ="=" onclick="findResult()" >
+      <input class ="button operator" type="button" value ="-" onclick="btnClick(value)">
+ </form>
+
+
+
+</div>
+
+	<script src="app.js"></script>
+</body>
+</html>
